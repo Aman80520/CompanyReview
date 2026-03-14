@@ -6,4 +6,6 @@ COPY ./target/CompanyReview.jar /app
 
 EXPOSE 8080
 
-ENTRYPOINT [ "Java","-jar","CompanyReview.jar" ]
+ENTRYPOINT [ "Java", "-jar", "CompanyReview.jar" ]
+
+["java", "-jar", "your-application.jar"]
